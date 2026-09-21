@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>股息率买入清单 · 公开版</title>
+  <meta name="description" content="基于正常化股息假设的A股、港股与美股分档价格观察清单">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c1121f'/%3E%3Cpath d='M17 18h30v7H17zm0 13h22v7H17zm0 13h30v7H17z' fill='white'/%3E%3C/svg%3E">
+  <style>
+    :root{--bg:#f6f7fb;--card:#fff;--text:#111827;--muted:#6b7280;--line:#e8eaf0;--red:#c1121f;--red-soft:#fff5f5;--blue:#2563eb;--soft:#fafafe;--green:#087a5b;--hk:#2563eb;--cn:#dc2626;--us:#059669}
+    *{box-sizing:border-box}
+    body{margin:0;padding:24px;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif}
+    .shell{width:min(1280px,100%);margin:auto}.card{margin:0 0 16px;padding:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+    .hero{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.title-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}h1{margin:0;font-size:21px;line-height:1.35}.badge{display:inline-flex;padding:4px 9px;border-radius:999px;background:#eef2ff;color:#4454a6;font-size:11px;font-weight:700}.meta{margin-top:7px;color:var(--muted);font-size:12px;line-height:1.6}
+    .method{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;min-width:430px}.method-item{padding:9px 11px;border:1px solid var(--line);border-radius:9px;background:var(--soft)}.method-item b{display:block;margin-bottom:3px;font-size:11px}.method-item span{color:var(--muted);font-size:10px;line-height:1.45}
+    .controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.search{height:34px;width:280px;max-width:100%;padding:7px 10px;border:1px solid #d9dbe2;border-radius:8px;background:#fff;color:#111;font:inherit;font-size:12px;outline:none}.search:focus{border-color:#9ca3af;box-shadow:0 0 0 3px rgba(148,163,184,.15)}.market-filter{display:flex;align-items:center;gap:7px;margin-left:auto;color:var(--muted);font-size:11px}.market-tag{display:inline-flex;align-items:center;padding:3px 7px;border:1px solid transparent;border-radius:999px;font:700 10px/1 inherit}.market-tag.hk{background:#eff6ff;color:var(--hk)}.market-tag.cn{background:#fff1f2;color:var(--cn)}.market-tag.us{background:#ecfdf5;color:var(--us)}button.market-tag{min-height:26px;padding:5px 10px;cursor:pointer;transition:opacity .15s,filter .15s,box-shadow .15s}button.market-tag[aria-pressed="true"]{box-shadow:inset 0 0 0 1px currentColor}button.market-tag[aria-pressed="false"]{opacity:.32;filter:grayscale(.75)}button.market-tag:focus-visible{outline:2px solid #111827;outline-offset:2px}
+    .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}table{width:100%;border-collapse:collapse;font-size:12px}th,td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}th{position:sticky;top:0;z-index:2;background:#fff;font-weight:700;cursor:pointer;user-select:none}th:hover{color:var(--red)}
+    .right{text-align:right}.name-code{min-width:190px;white-space:normal;line-height:1.3}.name{font-size:13px}.code{margin-top:3px;color:#8a8f9b;font:11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.identity{display:flex;align-items:center;gap:6px;margin-top:4px}.identity .code{margin:0}.category{color:#8a8f9b;font-size:10px}.main-row{cursor:pointer}.main-row.market-hk>td:first-child{box-shadow:inset 3px 0 var(--hk)}.main-row.market-cn>td:first-child{box-shadow:inset 3px 0 var(--cn)}.main-row.market-us>td:first-child{box-shadow:inset 3px 0 var(--us)}.main-row:hover td{background:#fcfcff}.yield-lines,.ladder-lines{display:flex;flex-direction:column;gap:2px;align-items:flex-end}.label{color:#666}.hit{color:var(--red);font-weight:700}.detail-row{display:none}.detail-row.open{display:table-row}.detail-cell{padding:10px;white-space:normal;background:#fff}
+    .detail-card{padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--soft)}.detail-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,1fr);gap:12px}.detail-box{padding:12px;border:1px solid var(--line);border-radius:10px;background:#fff}.detail-title{font-size:13px;font-weight:700}.detail-sub{margin-top:4px;color:#666;font-size:11px;line-height:1.55}
+    .chart{display:flex;align-items:flex-end;gap:8px;height:150px;margin-top:12px;padding:0 4px 22px;border-bottom:1px solid #e5e7eb}.bar-col{position:relative;display:flex;flex:1;height:100%;min-width:34px;align-items:flex-end;justify-content:center}.bar{width:min(30px,70%);min-height:3px;border-radius:7px 7px 0 0;background:linear-gradient(#60a5fa,#2563eb)}.bar-value{position:absolute;bottom:calc(var(--h) + 4px);font-size:10px;color:#475569}.bar-year{position:absolute;bottom:-18px;font-size:10px;color:#667085}
+    .metrics{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.metric{display:inline-flex;gap:7px;align-items:center;padding:6px 9px;border:1px solid var(--line);border-radius:999px;background:#fff;font-size:11px}.metric b{color:#555;font-weight:600}.thesis{margin-top:12px;padding:10px 12px;border-left:3px solid var(--red);border-radius:0 8px 8px 0;background:var(--red-soft);color:#5f2d31;font-size:12px;line-height:1.65}
+    .price-map{margin-top:12px;border:1px solid var(--line);border-radius:8px;overflow:hidden}.price-map-row{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:8px;padding:7px 9px;border-top:1px solid var(--line);font-size:11px}.price-map-row:first-child{border-top:0;background:#f7f7fa;font-weight:700}.price-map-row span:nth-child(2){text-align:right}.price-map-row span:last-child{text-align:right;color:#666}.price-map-row.key{color:var(--red);font-weight:700}
+    .note{display:grid;grid-template-columns:1fr 1fr;gap:12px}.note-box{padding:13px 14px;border:1px solid var(--line);border-radius:10px;background:#fff}.note-box h2{margin:0 0 7px;font-size:14px}.note-box p{margin:0;color:var(--muted);font-size:11px;line-height:1.7}.note-box strong{color:var(--text)}.empty{padding:28px;text-align:center;color:#777}.foot{padding:2px 4px 14px;color:#737784;font-size:11px;line-height:1.65}.mobile-only{display:none}
+    @media(max-width:850px){.hero{display:block}.method{min-width:0;margin-top:14px}.detail-grid{grid-template-columns:1fr}}
+    @media(max-width:700px){
+      body{padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left))}
+      .shell{width:100%}.card{padding:10px;margin-bottom:10px;border-radius:10px}h1{font-size:18px}.search{width:100%}.market-filter{width:100%;margin-left:0;gap:5px}.market-filter>span{display:none}button.market-tag{flex:1;justify-content:center}
+      .table-card{padding:0;overflow:hidden}.table-wrap{overflow-x:hidden}table{width:100%;table-layout:fixed;font-size:10px}th,td{padding:7px 4px}.desktop-only{display:none!important}.mobile-only{display:initial}th.mobile-only,td.mobile-only{display:table-cell}
+      .name-col{width:31%}.price-col{width:17%}.mobile-ladder{width:31%}.yield-col{width:21%;padding-right:calc(4px + 1ch)}.name-code{min-width:0;white-space:normal;padding-left:7px}.name{display:block;overflow:hidden;font-size:11.5px;font-weight:700;text-overflow:ellipsis;white-space:nowrap}.identity{gap:4px;margin-top:3px;flex-wrap:wrap}.code{font-size:9px}.identity .market-tag{padding:2px 4px;font-size:8px}.category{display:none}.compact-years{width:100%;color:#8a8f9b;font-size:8.5px}.cell-sub{display:block!important;margin-top:3px;color:#8a8f9b;font-size:8.5px;font-weight:400}.cell-sub.hit{color:var(--red);font-weight:700}.yield-lines,.ladder-lines{gap:3px}.mobile-ladder .ladder-lines{font-size:9.5px}.mobile-ladder .label{font-size:8.5px}.yield-col .yield-lines{font-size:9.5px}
+      .detail-cell{padding:7px}.detail-card,.detail-box{padding:9px}.detail-grid{gap:8px}.chart{gap:3px;height:135px}.bar-col{min-width:0}.bar-value,.bar-year{font-size:8px}.metrics{gap:5px}.metric{padding:5px 7px;font-size:10px}.price-map-row{font-size:10px}.note{grid-template-columns:1fr}.method{grid-template-columns:1fr}.foot{padding:2px 2px calc(10px + env(safe-area-inset-bottom))}
+    }
+    @media(max-width:390px){th,td{padding-left:3px;padding-right:3px}.name-col{width:30%}.price-col{width:17%}.mobile-ladder{width:32%}.yield-col{width:21%}.mobile-ladder .ladder-lines,.yield-col .yield-lines{font-size:9px}}
+    @media print{body{padding:0;background:#fff}.controls{display:none}.card{border:0;box-shadow:none}.detail-row{display:table-row!important}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="card hero">
+      <div>
+        <div class="title-row"><h1>股息率买入清单</h1><span class="badge">公开脱敏版</span></div>
+        <div class="meta"><span id="quoteMeta">正在读取行情日期…</span><br>按正常化或 Forward 每股股息反推价格区间，不含任何个人资产、交易与账户信息。</div>
+      </div>
+      <div class="method" aria-label="使用方法">
+        <div class="method-item"><b>价格条件</b><span>达到分档价，只代表进入研究区。</span></div>
+        <div class="method-item"><b>基本面条件</b><span>盈利、现金流与派息能力必须未恶化。</span></div>
+        <div class="method-item"><b>组合条件</b><span>新增标的应改善收益、波动或风险因子。</span></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="controls">
+        <input id="q" class="search" type="search" placeholder="搜索名称或代码" aria-label="搜索名称或代码">
+        <div class="market-filter" aria-label="市场多选筛选"><span>市场筛选</span><button class="market-tag hk" type="button" data-market="港股" aria-pressed="true">港股</button><button class="market-tag cn" type="button" data-market="A股" aria-pressed="true">A股</button><button class="market-tag us" type="button" data-market="美股" aria-pressed="true">美股</button></div>
+      </div>
+    </section>
+
+    <section class="card table-card">
+      <div class="table-wrap">
+        <table id="dividendTable">
+          <thead><tr>
+            <th class="name-col" data-key="name"><span class="desktop-only">名称/代码</span><span class="mobile-only">名称</span></th>
+            <th class="right price-col" data-key="price" data-mobile-key="needDrop" title="手机端按距首档涨跌幅排序"><span class="desktop-only">最新收盘价</span><span class="mobile-only">价格</span></th>
+            <th class="right desktop-only" data-key="firstPrice">首档价(目标息率)</th>
+            <th class="right desktop-only" data-key="addPrice">加档价(目标息率)</th>
+            <th class="right desktop-only" data-key="heavyPrice">深档价(目标息率)</th>
+            <th class="right mobile-only mobile-ladder" data-key="firstPrice">首/加/深</th>
+            <th class="right yield-col" data-key="currentYield"><span class="desktop-only">股息率(新/均/低)</span><span class="mobile-only">股息率</span></th>
+            <th class="right desktop-only" data-key="years">连续分红(年)</th>
+            <th class="right desktop-only" data-key="needDrop">至首档涨跌幅</th>
+          </tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card note">
+      <div class="note-box"><h2>这张表如何使用</h2><p><strong>价格触发不等于自动买入。</strong>先检查最新财报与派息能力，再检查估值和周期位置，最后决定是否适合纳入组合。点击任一股票可展开股息假设、关键风险和完整价格地图。</p></div>
+      <div class="note-box"><h2>公开信息说明</h2><p>页面由定时任务更新最近完成的收盘价，任务可能延迟，判断时以页面标注的实际交易日期为准；正常化股息包含估算值，可能与最终宣派金额不同。内容仅用于展示分析框架，不构成证券推荐或收益承诺。</p></div>
+    </section>
+
+    <div class="foot">“新”为最新收盘价对应的正常化或 Forward 股息率；“均/低”仅在已有核对口径时展示。红色仅表示价格达到相应档位，不代表基本面、估值和风险检查已经通过。</div>
+  </main>
+
+  <script src="assets/stocks.js"></script>
+  <script>
+    const stocks=(window.STOCKS_DATA||[]).map(s=>{
+      s.firstPrice??=s.dividend/(s.firstYield/100);
+      s.addPrice??=s.dividend/(s.addYield/100);
+      s.heavyPrice??=s.dividend/(s.heavyYield/100);
+      s.currentYield=s.dividend/s.price*100;
+      s.needDrop=(s.firstPrice/s.price-1)*100;
+      return s;
+    });
+
+    const quoteMeta=window.QUOTE_META||{marketDates:{},status:"partial",staleCodes:[]};
+    const marketDates=quoteMeta.marketDates||{};
+    const statusText=quoteMeta.status==='ok'?'数据已校验':`部分数据待核对${quoteMeta.staleCodes?.length?`（${quoteMeta.staleCodes.join('、')}）`:''}`;
+    document.getElementById('quoteMeta').textContent=`行情日期：A股 ${marketDates['A股']||'—'} · 港股 ${marketDates['港股']||'—'} · 美股 ${marketDates['美股']||'—'} · ${statusText}`;
+
+    const tbody=document.getElementById("rows"),q=document.getElementById("q"),marketButtons=[...document.querySelectorAll('[data-market]')];
+    const selectedMarkets=new Set(marketButtons.map(button=>button.dataset.market));
+    let sortKey="order",sortDir=1;
+    const fmt=n=>Number(n).toFixed(2),pct=n=>n==null?"—":`${fmt(n)}%`,delta=n=>`${n>=0?"+":""}${fmt(n)}%`;
+    const ladder=(price,yieldValue,hit)=>`<td class="right desktop-only ${hit?'hit':''}">${fmt(price)}<div class="code">${yieldValue.toFixed(1)}%</div></td>`;
+    function historySource(source){return source==="eastmoney-a-dividend"?"东方财富A股分红明细":source==="eastmoney-hk-dividend"?"东方财富港股分红派息":source==="yahoo-dividend-events"?"Yahoo除息事件":"人工正常化口径"}
+    function chart(history,currency,source){const max=Math.max(...history.map(x=>x[1]));return `<div class="chart">${history.map(([year,val])=>{const h=Math.max(5,val/max*100);return `<div class="bar-col"><span class="bar-value">${val.toFixed(val<1?3:2)}</span><i class="bar" style="height:${h}%;--h:${h}%"></i><span class="bar-year">${year}</span></div>`}).join("")}</div><div class="detail-sub" style="margin-top:8px">单位：${currency}/股；来源：${historySource(source)}。YTD为当年截至当前的已宣派记录，特别股息不计入。</div>`}
+    function priceMap(s){return `<div class="price-map"><div class="price-map-row"><span>价格</span><span>正常化股息率</span><span>判断</span></div>${s.priceMap.map(r=>`<div class="price-map-row ${r[3]?'key':''}"><span>${s.currency}${r[0]}</span><span>${r[1]}</span><span>${r[2]}</span></div>`).join("")}</div>`}
+    function detail(s){return `<tr class="detail-row" data-detail="${s.code}"><td class="detail-cell" colspan="9"><div class="detail-card"><div class="detail-grid"><div class="detail-box"><div class="detail-title">年度每股股息 / DPS</div><div class="detail-sub">蓝柱为接口汇总的历年普通现金股息，用于检查分红趋势是否支持估值锚。</div>${chart(s.history,s.currency,s.historySource)}</div><div class="detail-box"><div class="detail-title">估值与风险口径</div><div class="detail-sub">价格命中后，仍需通过基本面、估值、周期位置和组合角色检查。</div><div class="metrics"><span class="metric"><b>正常化DPS</b>${s.currency}${fmt(s.dividend)}</span><span class="metric"><b>分红口径</b>${s.payout}</span><span class="metric"><b>频率</b>${s.frequency}</span><span class="metric"><b>估值锚</b>${s.valuation}</span><span class="metric"><b>角色</b>${s.role}</span></div><div class="thesis">${s.thesis}</div>${priceMap(s)}</div></div></div></td></tr>`}
+    function main(s){const firstHit=s.price<=s.firstPrice,addHit=s.price<=s.addPrice,heavyHit=s.price<=s.heavyPrice;const marketClass=s.market==='港股'?'hk':s.market==='A股'?'cn':'us';return `<tr class="main-row market-${marketClass}" data-code="${s.code}" tabindex="0"><td class="name-code name-col"><span class="name">${s.name}</span><div class="identity"><span class="code">${s.code}</span><span class="market-tag ${marketClass}">${s.market}</span><span class="category">${s.category}</span><span class="mobile-only compact-years">连续 ${s.years??'—'} 年</span></div></td><td class="right price-col">${fmt(s.price)}<span class="mobile-only cell-sub ${s.needDrop>=0?'hit':''}">距首 ${delta(s.needDrop)}</span></td>${ladder(s.firstPrice,s.firstYield,firstHit)}${ladder(s.addPrice,s.addYield,addHit)}${ladder(s.heavyPrice,s.heavyYield,heavyHit)}<td class="right mobile-only mobile-ladder"><div class="ladder-lines"><span class="${firstHit?'hit':''}">首 ${fmt(s.firstPrice)} <span class="label">${s.firstYield.toFixed(1)}%</span></span><span class="${addHit?'hit':''}">加 ${fmt(s.addPrice)} <span class="label">${s.addYield.toFixed(1)}%</span></span><span class="${heavyHit?'hit':''}">深 ${fmt(s.heavyPrice)} <span class="label">${s.heavyYield.toFixed(1)}%</span></span></div></td><td class="right yield-col"><div class="yield-lines"><span><span class="label">新</span> ${pct(s.currentYield)}</span><span><span class="label">均</span> ${pct(s.avgYield)}</span><span><span class="label">低</span> ${pct(s.lowYield)}</span></div></td><td class="right desktop-only">${s.years??'—'}</td><td class="right desktop-only ${s.needDrop>=0?'hit':''}">${delta(s.needDrop)}</td></tr>`}
+    function render(){const term=q.value.trim().toLowerCase();let list=stocks.filter(s=>(!term||`${s.name}${s.code}`.toLowerCase().includes(term))&&selectedMarkets.has(s.market));list.sort((a,b)=>{const av=a[sortKey],bv=b[sortKey];return (typeof av==='number'?av-bv:String(av).localeCompare(String(bv),'zh-CN'))*sortDir});tbody.innerHTML=list.length?list.map(s=>main(s)+detail(s)).join(""):`<tr><td colspan="9" class="empty">没有符合条件的股票</td></tr>`;bindRows()}
+    function bindRows(){document.querySelectorAll('.main-row').forEach(row=>{const toggle=()=>{const d=document.querySelector(`[data-detail="${row.dataset.code}"]`);if(d)d.classList.toggle('open')};row.addEventListener('click',toggle);row.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}})})}
+    document.querySelectorAll('th[data-key]').forEach(th=>th.addEventListener('click',()=>{const k=window.matchMedia('(max-width:700px)').matches&&th.dataset.mobileKey?th.dataset.mobileKey:th.dataset.key;if(sortKey===k)sortDir*=-1;else{sortKey=k;sortDir=1}render()}));
+    q.addEventListener('input',render);
+    marketButtons.forEach(button=>button.addEventListener('click',()=>{const name=button.dataset.market;if(selectedMarkets.has(name))selectedMarkets.delete(name);else selectedMarkets.add(name);button.setAttribute('aria-pressed',String(selectedMarkets.has(name)));render()}));
+    render();
+  </script>
+</body>
+</html>

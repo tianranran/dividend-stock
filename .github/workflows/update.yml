@@ -1,0 +1,91 @@
+name: Update market closes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "config/strategy.json"
+  schedule:
+    # GitHub Actions 使用 UTC。08:35 UTC = 北京时间 16:35。
+    - cron: "35 8 * * 1-5"
+    # 22:35 UTC = 北京时间次日 06:35（周一至周五美股收盘后）。
+    - cron: "35 22 * * 0-4"
+  workflow_dispatch:
+    inputs:
+      markets:
+        description: "要更新的市场，使用逗号分隔"
+        required: true
+        default: "A股,港股,美股"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: dashboard-pages
+  cancel-in-progress: true
+
+jobs:
+  update:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Select markets
+        id: select
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "markets=${{ inputs.markets }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            echo "markets=A股,港股,美股" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "35 8 * * 1-5" ]; then
+            echo "markets=A股,港股" >> "$GITHUB_OUTPUT"
+          else
+            echo "markets=美股" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch latest completed closes
+        run: python scripts/fetch_quotes.py --markets "${{ steps.select.outputs.markets }}"
+
+      - name: Refresh dividend history
+        run: python scripts/fetch_dividends.py --markets "${{ steps.select.outputs.markets }}"
+
+      - name: Validate public data
+        run: python scripts/validate_data.py
+
+      - name: Build static data asset
+        run: python scripts/build_site.py
+
+      - name: Commit changed public data
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/quotes.json data/dividends.json dist/assets/stocks.js
+          if git diff --cached --quiet; then
+            echo "No market data changes"
+            exit 0
+          fi
+          git commit -m "chore: update market closes"
+          git push
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy read-only dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
