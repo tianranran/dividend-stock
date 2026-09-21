@@ -3,8 +3,6 @@ name: Update market closes
 on:
   push:
     branches: [main]
-    paths:
-      - "config/strategy.json"
   schedule:
     # GitHub Actions 使用 UTC。08:35 UTC = 北京时间 16:35。
     - cron: "35 8 * * 1-5"
