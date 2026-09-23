@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T08:53:27+08:00",
+  "generatedAt": "2026-09-23T11:13:54+08:00",
   "status": "ok",
   "errors": [],
   "dividends": {
@@ -33,7 +33,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00941": {
@@ -65,7 +65,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00270": {
@@ -97,7 +97,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "600690": {
@@ -129,7 +129,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00728": {
@@ -161,7 +161,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "01209": {
@@ -193,7 +193,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00883": {
@@ -225,7 +225,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "XOM": {
@@ -257,7 +257,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "09633": {
@@ -289,7 +289,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "02318": {
@@ -321,7 +321,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "partial",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": [
         "2014存在非港币或无法解析的派息：每股派人民币0.25元(相等於每股0.3149港元)",
         "2012存在非港币或无法解析的派息：每股派人民币0.15元(相当于港币股0.1834元)",
@@ -357,7 +357,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00762": {
@@ -389,7 +389,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "000333": {
@@ -421,7 +421,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "VZ": {
@@ -453,7 +453,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "CMCSA": {
@@ -485,7 +485,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "NKE": {
@@ -517,7 +517,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "PRU": {
@@ -549,7 +549,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "TROW": {
@@ -581,7 +581,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "BBY": {
@@ -613,7 +613,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "DKS": {
@@ -645,7 +645,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "MAIN": {
@@ -677,7 +677,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "SON": {
@@ -709,7 +709,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "LCII": {
@@ -741,7 +741,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "PEBO": {
@@ -773,7 +773,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "DGICA": {
@@ -805,7 +805,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "FNLC": {
@@ -837,7 +837,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "SHOE": {
@@ -869,7 +869,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "RGCO": {
@@ -901,7 +901,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "HARL": {
@@ -933,7 +933,7 @@
       ],
       "source": "yahoo-dividend-events",
       "status": "ok",
-      "updatedAt": "2026-09-23T08:53:27+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "600036": {
@@ -965,7 +965,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "600919": {
@@ -997,7 +997,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "600887": {
@@ -1029,7 +1029,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "600039": {
@@ -1061,7 +1061,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "601077": {
@@ -1093,7 +1093,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "600282": {
@@ -1125,7 +1125,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "600012": {
@@ -1157,7 +1157,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "601000": {
@@ -1189,7 +1189,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "000951": {
@@ -1221,7 +1221,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "603899": {
@@ -1253,7 +1253,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "000719": {
@@ -1285,7 +1285,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "002911": {
@@ -1317,7 +1317,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "002003": {
@@ -1349,7 +1349,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "000690": {
@@ -1381,7 +1381,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "601900": {
@@ -1413,7 +1413,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "600480": {
@@ -1445,7 +1445,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "002588": {
@@ -1477,7 +1477,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "002533": {
@@ -1509,7 +1509,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "002154": {
@@ -1541,7 +1541,7 @@
       ],
       "source": "eastmoney-a-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "02328": {
@@ -1573,7 +1573,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00006": {
@@ -1605,7 +1605,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "03808": {
@@ -1637,7 +1637,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00257": {
@@ -1669,7 +1669,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00631": {
@@ -1701,7 +1701,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "03320": {
@@ -1733,7 +1733,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "01882": {
@@ -1765,7 +1765,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "02356": {
@@ -1797,7 +1797,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00440": {
@@ -1829,7 +1829,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00856": {
@@ -1861,7 +1861,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "01681": {
@@ -1893,7 +1893,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "00506": {
@@ -1925,7 +1925,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "02722": {
@@ -1957,7 +1957,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     },
     "02199": {
@@ -1989,7 +1989,7 @@
       ],
       "source": "eastmoney-hk-dividend",
       "status": "ok",
-      "updatedAt": "2026-09-22T21:38:46+08:00",
+      "updatedAt": "2026-09-23T11:13:54+08:00",
       "warnings": []
     }
   }
