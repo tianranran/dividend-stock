@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T01:22:31+08:00",
+  "generatedAt": "2026-10-06T10:27:49+08:00",
   "status": "ok",
   "quotes": {
     "02318": {
@@ -53,11 +53,11 @@
       "updatedAt": "2026-10-06T01:22:31+08:00"
     },
     "XOM": {
-      "price": 164.01,
-      "tradeDate": "2026-10-02",
+      "price": 164.0,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "09633": {
       "price": 39.98,
@@ -95,116 +95,116 @@
       "updatedAt": "2026-10-06T01:22:31+08:00"
     },
     "VZ": {
-      "price": 45.92,
-      "tradeDate": "2026-10-02",
+      "price": 45.85,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "CMCSA": {
       "price": 21.57,
-      "tradeDate": "2026-10-02",
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "NKE": {
-      "price": 33.87,
-      "tradeDate": "2026-10-02",
+      "price": 33.96,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "PRU": {
-      "price": 112.6,
-      "tradeDate": "2026-10-02",
+      "price": 113.48,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "TROW": {
-      "price": 104.62,
-      "tradeDate": "2026-10-02",
+      "price": 103.93,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "BBY": {
-      "price": 87.97,
-      "tradeDate": "2026-10-02",
+      "price": 87.39,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "DKS": {
-      "price": 136.08,
-      "tradeDate": "2026-10-02",
+      "price": 137.13,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "MAIN": {
-      "price": 55.11,
-      "tradeDate": "2026-10-02",
+      "price": 54.99,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "SON": {
-      "price": 48.74,
-      "tradeDate": "2026-10-02",
+      "price": 48.22,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "LCII": {
-      "price": 82.81,
-      "tradeDate": "2026-10-02",
+      "price": 82.58,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "PEBO": {
-      "price": 37.48,
-      "tradeDate": "2026-10-02",
+      "price": 37.11,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "DGICA": {
-      "price": 18.27,
-      "tradeDate": "2026-10-02",
+      "price": 18.24,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "FNLC": {
       "price": 34.21,
-      "tradeDate": "2026-10-02",
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "SHOE": {
-      "price": 12.58,
-      "tradeDate": "2026-10-02",
+      "price": 12.82,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "RGCO": {
-      "price": 21.8,
-      "tradeDate": "2026-10-02",
+      "price": 21.64,
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "HARL": {
       "price": 33.3,
-      "tradeDate": "2026-10-02",
+      "tradeDate": "2026-10-05",
       "source": "yahoo",
       "status": "ok",
-      "updatedAt": "2026-10-05T09:12:51+08:00"
+      "updatedAt": "2026-10-06T10:27:49+08:00"
     },
     "600036": {
       "price": 41.26,
