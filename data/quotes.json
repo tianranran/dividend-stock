@@ -1,56 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T10:38:57+08:00",
+  "generatedAt": "2026-11-05T00:32:15+08:00",
   "status": "ok",
   "quotes": {
     "02318": {
-      "price": 51.65,
-      "tradeDate": "2026-11-03",
+      "price": 51.95,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00941": {
-      "price": 80.6,
-      "tradeDate": "2026-11-03",
+      "price": 80.5,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00270": {
-      "price": 7.875,
-      "tradeDate": "2026-11-03",
+      "price": 8.03,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "600690": {
-      "price": 21.35,
-      "tradeDate": "2026-11-03",
+      "price": 20.98,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00728": {
-      "price": 4.54,
-      "tradeDate": "2026-11-03",
+      "price": 4.5,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "01209": {
-      "price": 40.06,
-      "tradeDate": "2026-11-03",
+      "price": 40.26,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00883": {
-      "price": 24.04,
-      "tradeDate": "2026-11-03",
+      "price": 23.78,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "XOM": {
       "price": 177.46,
@@ -60,39 +60,39 @@
       "updatedAt": "2026-11-04T10:38:57+08:00"
     },
     "09633": {
-      "price": 44.8,
-      "tradeDate": "2026-11-03",
+      "price": 44.7,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00291": {
-      "price": 20.74,
-      "tradeDate": "2026-11-03",
+      "price": 20.34,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "02313": {
-      "price": 39.08,
-      "tradeDate": "2026-11-03",
+      "price": 39.2,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00762": {
       "price": 5.4,
-      "tradeDate": "2026-11-03",
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "000333": {
-      "price": 88.88,
-      "tradeDate": "2026-11-03",
+      "price": 87.98,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "VZ": {
       "price": 45.24,
@@ -207,235 +207,235 @@
       "updatedAt": "2026-11-04T10:38:57+08:00"
     },
     "600036": {
-      "price": 42.69,
-      "tradeDate": "2026-11-03",
+      "price": 42.54,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "600919": {
-      "price": 12.6,
-      "tradeDate": "2026-11-03",
+      "price": 12.55,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "600887": {
-      "price": 31.47,
-      "tradeDate": "2026-11-03",
+      "price": 30.71,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "600039": {
-      "price": 8.82,
-      "tradeDate": "2026-11-03",
+      "price": 8.85,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "601077": {
-      "price": 7.09,
-      "tradeDate": "2026-11-03",
+      "price": 7.02,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "600282": {
-      "price": 4.42,
-      "tradeDate": "2026-11-03",
+      "price": 4.41,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "600012": {
-      "price": 17.58,
-      "tradeDate": "2026-11-03",
+      "price": 17.84,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "601000": {
-      "price": 4.87,
-      "tradeDate": "2026-11-03",
+      "price": 4.82,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "000951": {
-      "price": 19.17,
-      "tradeDate": "2026-11-03",
+      "price": 19.86,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "603899": {
-      "price": 23.17,
-      "tradeDate": "2026-11-03",
+      "price": 23.43,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "000719": {
-      "price": 13.52,
-      "tradeDate": "2026-11-03",
+      "price": 13.83,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "002911": {
-      "price": 11.7,
-      "tradeDate": "2026-11-03",
+      "price": 11.69,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "002003": {
-      "price": 12.69,
-      "tradeDate": "2026-11-03",
+      "price": 12.57,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "000690": {
-      "price": 5.49,
-      "tradeDate": "2026-11-03",
+      "price": 5.42,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "601900": {
-      "price": 15.22,
-      "tradeDate": "2026-11-03",
+      "price": 15.42,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "600480": {
-      "price": 7.68,
-      "tradeDate": "2026-11-03",
+      "price": 7.81,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "002588": {
-      "price": 7.25,
-      "tradeDate": "2026-11-03",
+      "price": 7.28,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "002533": {
-      "price": 10.3,
-      "tradeDate": "2026-11-03",
+      "price": 10.47,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "002154": {
-      "price": 3.42,
-      "tradeDate": "2026-11-03",
+      "price": 3.44,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "02328": {
-      "price": 17.07,
-      "tradeDate": "2026-11-03",
+      "price": 17.1,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00006": {
-      "price": 64.1,
-      "tradeDate": "2026-11-03",
+      "price": 64.35,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "03808": {
-      "price": 33.3,
-      "tradeDate": "2026-11-03",
+      "price": 35.62,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00257": {
-      "price": 4.8,
-      "tradeDate": "2026-11-03",
+      "price": 4.815,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00631": {
-      "price": 6.58,
-      "tradeDate": "2026-11-03",
+      "price": 6.57,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "03320": {
-      "price": 4.69,
-      "tradeDate": "2026-11-03",
+      "price": 4.685,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "01882": {
-      "price": 17.72,
-      "tradeDate": "2026-11-03",
+      "price": 17.83,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "02356": {
-      "price": 13.05,
-      "tradeDate": "2026-11-03",
+      "price": 13.36,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00440": {
-      "price": 42.36,
-      "tradeDate": "2026-11-03",
+      "price": 43.24,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00856": {
-      "price": 7.54,
-      "tradeDate": "2026-11-03",
+      "price": 7.935,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "01681": {
-      "price": 15.4,
-      "tradeDate": "2026-11-03",
+      "price": 15.66,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "00506": {
-      "price": 3.945,
-      "tradeDate": "2026-11-03",
+      "price": 3.95,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "02722": {
-      "price": 1.335,
-      "tradeDate": "2026-11-03",
+      "price": 1.44,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     },
     "02199": {
-      "price": 2.48,
-      "tradeDate": "2026-11-03",
+      "price": 2.435,
+      "tradeDate": "2026-11-04",
       "source": "tencent",
       "status": "ok",
-      "updatedAt": "2026-11-04T00:29:23+08:00"
+      "updatedAt": "2026-11-05T00:32:15+08:00"
     }
   }
 }
